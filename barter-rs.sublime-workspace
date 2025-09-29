@@ -1,0 +1,2765 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "rustfmt.toml",
+			"settings":
+			{
+				"buffer_size": 46,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "barter-data/README.md",
+			"settings":
+			{
+				"buffer_size": 14017,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "rust-toolchain.toml",
+			"settings":
+			{
+				"buffer_size": 117,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "release-plz.toml",
+			"settings":
+			{
+				"buffer_size": 716,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 12135,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "barter/examples/statistical_trading_summary.rs",
+			"settings":
+			{
+				"buffer_size": 11389,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{\n\t\"folders\":\n\t[\n\t\t{\n\t\t\t\"path\": \".\"\n\t\t}\n\t],\n\t\"settings\": {\n\t\t\"LSP\": {    // 为 LSP 插件 (https://packagecontrol.io/packages/LSP) 准备的配置。\n\t\t\t\"rust-analyzer\": {\n\t\t\t\t\"linkedProjects\": [    // 告诉 rust-analyzer 在项目的根目录中寻找 Cargo.toml 文件，rust-analyzer 看到这是一个 workspace 的 Cargo.toml 后，就会自动分析 members 中列出的所有 crates (barter, barter-data 等)。\n\t\t\t\t\t\"Cargo.toml\"\n\t\t\t\t],\n\t\t\t\t\"cargo\": {\n\t\t\t\t\t\"features\": []\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n}\n",
+			"file": "barter-rs.sublime-project",
+			"file_size": 277,
+			"file_write_time": 133999178272391844,
+			"settings":
+			{
+				"buffer_size": 407,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAACoAAAAAAAAAKwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKgAAAAAAAAAqAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAACsAAAAAAAAALQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKwAAAAAAAAArAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAC0AAAAAAAAALwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALQAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "sett"
+					},
+					"BAAAAC4AAAAAAAAALwAAAAAAAAAAAAAALwAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADEAAAAAAAAAAAAAADEAAAAAAAAAMgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALgAAAAAAAAAuAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"insert",
+					{
+						"characters": "ings"
+					},
+					"BAAAADIAAAAAAAAAMwAAAAAAAAAAAAAAMwAAAAAAAAA0AAAAAAAAAAAAAAA0AAAAAAAAADUAAAAAAAAAAAAAADUAAAAAAAAANgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMgAAAAAAAAAyAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAADcAAAAAAAAAOAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANwAAAAAAAAA3AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAADgAAAAAAAAAOQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOAAAAAAAAAA4AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAADkAAAAAAAAAOwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOQAAAAAAAAA5AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+					},
+					"BAAAADoAAAAAAAAAPAAAAAAAAAAAAAAAPAAAAAAAAAA+AAAAAAAAAAAAAAA7AAAAAAAAADsAAAAAAAAAAQAAAAk7AAAAAAAAAD0AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOgAAAAAAAAA6AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAD0AAAAAAAAAPwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAPQAAAAAAAAA9AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"insert",
+					{
+						"characters": "LSP"
+					},
+					"AwAAAD4AAAAAAAAAPwAAAAAAAAAAAAAAPwAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAEEAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAPgAAAAAAAAA+AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAAEIAAAAAAAAAQwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQgAAAAAAAABCAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAEMAAAAAAAAARAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQwAAAAAAAABDAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAAEQAAAAAAAAARgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARAAAAAAAAABEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+					},
+					"BAAAAEUAAAAAAAAASAAAAAAAAAAAAAAASAAAAAAAAABLAAAAAAAAAAAAAABGAAAAAAAAAEYAAAAAAAAAAgAAAAkJRgAAAAAAAABJAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARQAAAAAAAABFAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					22,
+					1,
+					"insert",
+					{
+						"characters": "r"
+					},
+					"AQAAAEkAAAAAAAAASgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASQAAAAAAAABJAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					23,
+					1,
+					"left_delete",
+					null,
+					"AQAAAEkAAAAAAAAASQAAAAAAAAABAAAAcg",
+					"AQAAAAAAAAABAAAASgAAAAAAAABKAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAEkAAAAAAAAASwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASQAAAAAAAABJAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"insert",
+					{
+						"characters": "rust-an"
+					},
+					"BwAAAEoAAAAAAAAASwAAAAAAAAAAAAAASwAAAAAAAABMAAAAAAAAAAAAAABMAAAAAAAAAE0AAAAAAAAAAAAAAE0AAAAAAAAATgAAAAAAAAAAAAAATgAAAAAAAABPAAAAAAAAAAAAAABPAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAUQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASgAAAAAAAABKAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					26,
+					1,
+					"insert",
+					{
+						"characters": "alyzer"
+					},
+					"BgAAAFEAAAAAAAAAUgAAAAAAAAAAAAAAUgAAAAAAAABTAAAAAAAAAAAAAABTAAAAAAAAAFQAAAAAAAAAAAAAAFQAAAAAAAAAVQAAAAAAAAAAAAAAVQAAAAAAAABWAAAAAAAAAAAAAABWAAAAAAAAAFcAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAUQAAAAAAAABRAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAAFgAAAAAAAAAWQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWAAAAAAAAABYAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					29,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAFkAAAAAAAAAWgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWQAAAAAAAABZAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					30,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAAFoAAAAAAAAAXAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWgAAAAAAAABaAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					31,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+					},
+					"BAAAAFsAAAAAAAAAXwAAAAAAAAAAAAAAXwAAAAAAAABjAAAAAAAAAAAAAABcAAAAAAAAAFwAAAAAAAAAAwAAAAkJCVwAAAAAAAAAYAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWwAAAAAAAABbAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					32,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAGAAAAAAAAAAYgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYAAAAAAAAABgAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					33,
+					1,
+					"insert",
+					{
+						"characters": "linked"
+					},
+					"BgAAAGEAAAAAAAAAYgAAAAAAAAAAAAAAYgAAAAAAAABjAAAAAAAAAAAAAABjAAAAAAAAAGQAAAAAAAAAAAAAAGQAAAAAAAAAZQAAAAAAAAAAAAAAZQAAAAAAAABmAAAAAAAAAAAAAABmAAAAAAAAAGcAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYQAAAAAAAABhAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					34,
+					1,
+					"insert",
+					{
+						"characters": "Projects"
+					},
+					"CAAAAGcAAAAAAAAAaAAAAAAAAAAAAAAAaAAAAAAAAABpAAAAAAAAAAAAAABpAAAAAAAAAGoAAAAAAAAAAAAAAGoAAAAAAAAAawAAAAAAAAAAAAAAawAAAAAAAABsAAAAAAAAAAAAAABsAAAAAAAAAG0AAAAAAAAAAAAAAG0AAAAAAAAAbgAAAAAAAAAAAAAAbgAAAAAAAABvAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZwAAAAAAAABnAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					36,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAAHAAAAAAAAAAcQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcAAAAAAAAABwAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					37,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAHEAAAAAAAAAcgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcQAAAAAAAABxAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					38,
+					1,
+					"insert_snippet",
+					{
+						"contents": "[$0]"
+					},
+					"AQAAAHIAAAAAAAAAdAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcgAAAAAAAAByAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					39,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\n\t$0\n"
+					},
+					"AQAAAHMAAAAAAAAAfgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcwAAAAAAAABzAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					40,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAHkAAAAAAAAAewAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAeQAAAAAAAAB5AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					41,
+					1,
+					"insert",
+					{
+						"characters": "Cargo.to"
+					},
+					"CAAAAHoAAAAAAAAAewAAAAAAAAAAAAAAewAAAAAAAAB8AAAAAAAAAAAAAAB8AAAAAAAAAH0AAAAAAAAAAAAAAH0AAAAAAAAAfgAAAAAAAAAAAAAAfgAAAAAAAAB/AAAAAAAAAAAAAAB/AAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAgQAAAAAAAAAAAAAAgQAAAAAAAACCAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAegAAAAAAAAB6AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					42,
+					1,
+					"insert",
+					{
+						"characters": "ml"
+					},
+					"AgAAAIIAAAAAAAAAgwAAAAAAAAAAAAAAgwAAAAAAAACEAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAggAAAAAAAACCAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					45,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAAIsAAAAAAAAAjAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAiwAAAAAAAACLAAAAAAAAAAAAAAAAAHBA"
+				],
+				[
+					46,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAIwAAAAAAAAAkQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAjAAAAAAAAACMAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					47,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAJEAAAAAAAAAkwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkQAAAAAAAACRAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					48,
+					1,
+					"insert",
+					{
+						"characters": "ca"
+					},
+					"AgAAAJIAAAAAAAAAkwAAAAAAAAAAAAAAkwAAAAAAAACUAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkgAAAAAAAACSAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					49,
+					1,
+					"insert_completion",
+					{
+						"completion": "Cargo",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "Cargo"
+					},
+					"AgAAAJIAAAAAAAAAkgAAAAAAAAACAAAAY2GSAAAAAAAAAJcAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlAAAAAAAAACUAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					51,
+					1,
+					"left_delete",
+					null,
+					"AQAAAJIAAAAAAAAAkgAAAAAAAAABAAAAQw",
+					"AQAAAAAAAAABAAAAkwAAAAAAAACTAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					52,
+					1,
+					"insert",
+					{
+						"characters": "c"
+					},
+					"AQAAAJIAAAAAAAAAkwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkgAAAAAAAACSAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					54,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAAJgAAAAAAAAAmQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmAAAAAAAAACYAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					55,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAJkAAAAAAAAAmgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmQAAAAAAAACZAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					56,
+					1,
+					"insert_snippet",
+					{
+						"contents": "[$0]"
+					},
+					"AQAAAJoAAAAAAAAAnAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmgAAAAAAAACaAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					57,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\n\t$0\n"
+					},
+					"AQAAAJsAAAAAAAAApgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmwAAAAAAAACbAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					58,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAKEAAAAAAAAAowAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAoQAAAAAAAAChAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					59,
+					1,
+					"insert",
+					{
+						"characters": "feature"
+					},
+					"BwAAAKIAAAAAAAAAowAAAAAAAAAAAAAAowAAAAAAAACkAAAAAAAAAAAAAACkAAAAAAAAAKUAAAAAAAAAAAAAAKUAAAAAAAAApgAAAAAAAAAAAAAApgAAAAAAAACnAAAAAAAAAAAAAACnAAAAAAAAAKgAAAAAAAAAAAAAAKgAAAAAAAAAqQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAogAAAAAAAACiAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					60,
+					1,
+					"insert",
+					{
+						"characters": "s"
+					},
+					"AQAAAKkAAAAAAAAAqgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqQAAAAAAAACpAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					62,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAAKsAAAAAAAAArAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqwAAAAAAAACrAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					63,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAKwAAAAAAAAArQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAArAAAAAAAAACsAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					64,
+					1,
+					"insert_snippet",
+					{
+						"contents": "[$0]"
+					},
+					"AQAAAK0AAAAAAAAArwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAArQAAAAAAAACtAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					68,
+					1,
+					"left_delete",
+					null,
+					"AQAAAJoAAAAAAAAAmgAAAAAAAAABAAAAWw",
+					"AQAAAAAAAAABAAAAmwAAAAAAAACbAAAAAAAAAAAAAAAAAHBA"
+				],
+				[
+					69,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAAJoAAAAAAAAAnAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmgAAAAAAAACaAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					71,
+					1,
+					"left_delete",
+					null,
+					"AQAAAJsAAAAAAAAAmwAAAAAAAAABAAAAfQ",
+					"AQAAAAAAAAABAAAAnAAAAAAAAACcAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					73,
+					1,
+					"left_delete",
+					null,
+					"AQAAALQAAAAAAAAAtAAAAAAAAAABAAAAXQ",
+					"AQAAAAAAAAABAAAAtQAAAAAAAAC1AAAAAAAAAAAAAAAAAGpA"
+				],
+				[
+					74,
+					1,
+					"insert",
+					{
+						"characters": "}"
+					},
+					"AQAAALQAAAAAAAAAtQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtAAAAAAAAAC0AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					77,
+					1,
+					"insert",
+					{
+						"characters": "    //"
+					},
+					"BgAAAEUAAAAAAAAARgAAAAAAAAAAAAAARgAAAAAAAABHAAAAAAAAAAAAAABHAAAAAAAAAEgAAAAAAAAAAAAAAEgAAAAAAAAASQAAAAAAAAAAAAAASQAAAAAAAABKAAAAAAAAAAAAAABKAAAAAAAAAEsAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARQAAAAAAAABFAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					78,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAEsAAAAAAAAATAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASwAAAAAAAABLAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					80,
+					1,
+					"",
+					null,
+					"AQAAAEwAAAAAAAAAhAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATAAAAAAAAABMAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					83,
+					1,
+					"insert",
+					{
+						"characters": "    /"
+					},
+					"BQAAALIAAAAAAAAAswAAAAAAAAAAAAAAswAAAAAAAAC0AAAAAAAAAAAAAAC0AAAAAAAAALUAAAAAAAAAAAAAALUAAAAAAAAAtgAAAAAAAAAAAAAAtgAAAAAAAAC3AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAsgAAAAAAAACyAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					84,
+					1,
+					"insert",
+					{
+						"characters": "/"
+					},
+					"AQAAALcAAAAAAAAAuAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtwAAAAAAAAC3AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					85,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAALgAAAAAAAAAuQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuAAAAAAAAAC4AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					87,
+					1,
+					"",
+					null,
+					"AQAAALkAAAAAAAAASwEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuQAAAAAAAAC5AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					89,
+					5,
+					"left_delete",
+					null,
+					"BQAAADIBAAAAAAAAMgEAAAAAAAABAAAAIDEBAAAAAAAAMQEAAAAAAAABAAAAIDABAAAAAAAAMAEAAAAAAAABAAAAIC8BAAAAAAAALwEAAAAAAAABAAAAIC4BAAAAAAAALgEAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAMwEAAAAAAAAzAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					90,
+					1,
+					"left_delete",
+					null,
+					"AQAAAC0BAAAAAAAALQEAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAALgEAAAAAAAAuAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					93,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAC0BAAAAAAAALgEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALQEAAAAAAAAtAQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "Cargo.toml",
+			"settings":
+			{
+				"buffer_size": 2189,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "barter/src/lib.rs",
+			"redo_stack":
+			[
+				[
+					133,
+					1,
+					"",
+					null,
+					"AQAAAKsNAAAAAAAAqw0AAAAAAAAEAAAAY3RybA",
+					"AQAAAAAAAAABAAAArw0AAAAAAACvDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					131,
+					1,
+					"",
+					null,
+					"AQAAAKcNAAAAAAAApw0AAAAAAAAEAAAAY3RybA",
+					"AQAAAAAAAAABAAAAqw0AAAAAAACrDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					130,
+					1,
+					"",
+					null,
+					"AQAAAKMNAAAAAAAAow0AAAAAAAAEAAAAY3RybA",
+					"AQAAAAAAAAABAAAApw0AAAAAAACnDQAAAAAAAAAAAAAAAPC/"
+				]
+			],
+			"settings":
+			{
+				"buffer_size": 9431,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "barter/examples/config/backtest_config.json",
+			"settings":
+			{
+				"buffer_size": 2224,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "barter/examples/config/system_config.json",
+			"settings":
+			{
+				"buffer_size": 2026,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "barter/examples/engine_sync_with_live_market_data_and_mock_execution_and_audit.rs",
+			"settings":
+			{
+				"buffer_size": 4181,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "barter/src/system/config.rs",
+			"settings":
+			{
+				"buffer_size": 5066,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "/home/ethan/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/io/buffered/bufreader.rs",
+			"settings":
+			{
+				"buffer_size": 20932,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "barter/src/risk/mod.rs",
+			"redo_stack":
+			[
+				[
+					70,
+					1,
+					"",
+					null,
+					"AQAAAJ8EAAAAAAAAnwQAAAAAAAABAAAANQ",
+					"AQAAAAAAAAABAAAAoAQAAAAAAACgBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					69,
+					1,
+					"",
+					null,
+					"AQAAAJ4EAAAAAAAAngQAAAAAAAABAAAANQ",
+					"AQAAAAAAAAABAAAAnwQAAAAAAACfBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					68,
+					1,
+					"",
+					null,
+					"AQAAAJ0EAAAAAAAAnQQAAAAAAAABAAAANQ",
+					"AQAAAAAAAAABAAAAngQAAAAAAACeBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					67,
+					1,
+					"",
+					null,
+					"AQAAAJwEAAAAAAAAnAQAAAAAAAABAAAANQ",
+					"AQAAAAAAAAABAAAAnQQAAAAAAACdBAAAAAAAAAAAAAAAAPC/"
+				]
+			],
+			"settings":
+			{
+				"buffer_size": 4318,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "/home/ethan/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/iter/traits/collect.rs",
+			"settings":
+			{
+				"buffer_size": 23173,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"contents": "这是一个推荐的学习路径，分为五个步骤：\n\n第 1 步：理解宏观架构（“它是什么？”）\n\n首先，你应该再次阅读项目最高层级的文档，以巩固对项目目标和结构的理解。\n\n* `README.md`（根目录）：这个文件提供了项目的总体介绍、核心特性以及各个子 crate 的作用。\n* `GEMINI.md`: 我刚刚生成的文件，是 README 的一个浓缩版本，并包含了一些关于如何构建和运行项目的关键信息。\n\n目标：理解 barter-rs 是一个交易框架，并知道 barter, barter-data, barter-execution 等几个核心 crate 分别是做什么的。\n\n第 2 步：运行一个实际的例子（“它是怎么跑起来的？”）\n\n理论结合实践是最好的学习方式。通过运行一个完整的示例，你可以直观地看到所有组件是如何协同工作的。\n\n* 核心示例: barter/examples/engine_sync_with_live_market_data_and_mock_execution_and_audit.rs\n   这个例子非常完美，因为它展示了一个接近真实的使用场景：连接实时市场数据，但使用模拟的执行器（不会产生真实交易），并且包含了审计功能。\n\n* 配置文件: barter/examples/config/system_config.json\n   这个 JSON 文件被上面的示例加载，定义了要交易的品种（BTCUSDT, ETHUSDT 等）、初始资金、手续费等。\n\n操作建议：\n1. 在终端中运行这个例子：\n\n1  cargo run --example engine_sync_with_live_market_data_and_mock_execution_and_audit\n2. 一边看着代码，一边对照 system_config.json 文件，理解程序是如何进行初始化的。\n3. 观察程序的输出，看看它打印了哪些信息。\n\n目标：了解一个完整的交易系统是如何通过 SystemBuilder 构建、配置和启动的。\n\n第 3 步：深入核心引擎（“心脏是如何工作的？”）\n\n现在你已经看过它的运行方式，是时候深入代码了。barter crate 是整个系统的核心。\n\n* `barter/src/lib.rs`: 这是 barter crate 的入口。它清晰地定义了所有的公共模块，如 engine, strategy, risk, statistic 等。把它看作是核心功能的地图。\n* `barter/src/engine/mod.rs`: 这里定义了最核心的 Engine 结构体。阅读它的字段和主要方法（比如 run 或者类似的方法），理解它的主循环。\n* `EngineEvent` 枚举（在 `barter/src/lib.rs` 中）：这是理解系统事件驱动模型的关键。看看这个枚举包含了哪些类型的事件（Market, Command, Shutdown 等），你就知道引擎能处理哪些输入。\n\n目标：理解 Engine 是一个状态机，它不断地消费 EngineEvent 来更新内部状态并产生交易决策。\n\n第 4 步：理解数据和执行（“引擎的输入和输出是什么？”）\n\n引擎需要数据输入，并需要执行交易指令。这由另外两个关键的 crate 负责。\n\n* `barter-data/src/lib.rs`: 浏览这个文件，理解它如何提供市场数据流（MarketStream）。你不需要立即深入每个交易所的实现细节，只需要明白这个 crate 的作用是为引擎提供统一格式的市场数据。\n* `barter-execution/src/lib.rs`: 同样，浏览这个文件，理解它如何处理订单执行（ExecutionClient）。这个 crate 负责将引擎生成的交易指令发送到真实的或模拟的交易所。\n\n目标：明白 barter-data 是“眼睛和耳朵”，barter-execution 是“手和脚”。\n\n第 5 步：理解如何定制（“我如何用它来构建自己的策略？”）\n\n最后，学习如何扩展这个框架。这通常是通过实现特定的 trait 来完成的。\n\n* `barter/src/strategy/mod.rs`: 查看这里的 Strategy trait。这是你编写自己交易逻辑的地方。看看 DefaultStrategy 是如何实现的，可以给你一个基本的概念。\n* `barter/src/risk/mod.rs`: 查看 RiskManager trait。这里定义了风险管理规则，比如检查订单大小、持仓限制等。\n\n目标：知道如果要实现自己的交易算法，你需要去实现 Strategy 和 RiskManager 这两个 trait。\n\n---\n\n总结：推荐的阅读顺序\n\n1. README.md 和 GEMINI.md\n2. barter/examples/engine_sync_with_live_market_data_and_mock_execution_and_audit.rs（以及它加载的 config.json）\n3. barter/src/lib.rs（重点看 EngineEvent 枚举和模块划分）\n4. barter/src/engine/mod.rs（看 Engine 结构体）\n5. barter-data/src/lib.rs 和 barter-execution/src/lib.rs（高层次浏览）\n6. barter/src/strategy/mod.rs（看 Strategy trait）\n\n按照这个路径，你可以平稳地从项目的高层概念过渡到具体的代码实现，而不会迷失在细节中。祝你学习愉快！\n\n\n## Structure\n### Instrument\n简单来说，`Instrument`（金融工具）就是指“你要交易的那个东西”，也就是“交易标的”。\n\n在不同的金融市场，Instrument 可以是：\n\n* 股票市场: 一支股票，比如苹果公司的股票（AAPL）。\n* 期货市场: 一份期货合约，比如 2025 年 12 月的原油期货合约。\n* 外汇市场: 一个货币对，比如欧元/美元（EUR/USD）。\n* 加密货币市场: 一个交易对，比如比特币/泰达币（BTC/USDT）。\n\n---\n\n结合 barter-rs 项目来看\n\n在这个项目中，Instrument 就是一个可以被交易的金融产品。而 InstrumentConfig 这个结构体，顾名思义，就是用来配置和定义一个具体的 `Instrument` 的。\n\n它告诉交易引擎关于这个交易标的的所有必要信息。\n\n让我们看一下你之前我们一起看过的那个配置文件 barter/examples/config/system_config.json，里面的每一项都是一个 InstrumentConfig 的实例：\n```json\n{\n   \"instruments\": [\n      {  \n         \"exchange\": \"binance_spot\",      // 在哪个交易所交易？ -> 币安现货\n         \"name_exchange\": \"BTCUSDT\",      // 它在交易所叫什么名字？ -> \"BTCUSDT\"\n         \"underlying\": {\n            \"base\": \"btc\",                 // 基础资产是什么？ -> 比特币\n            \"quote\": \"usdt\"                // 计价资产是什么？ -> 泰达币\n         },    \n         \"kind\": \"spot\"                   // 它是什么类型？ -> 现货\n      },      \n      {\n         \"exchange\": \"binance_spot\",\n         \"name_exchange\": \"ETHUSDT\",\n         // ... 其他配置\n      }\n   ]\n}\n```\n从这个例子中可以清晰地看到，一个 InstrumentConfig 对象精确地描述了一个交易标的：\n\n* 它在币安现货交易所。\n* 它的名字是 `BTCUSDT`。\n* 它是一个现货产品。\n* 它是由 `btc`（基础货币和 `usdt`（计价货币）组成的交易对。\n\n总结\n\n所以，当你看到 Instrument 时，就把它理解为“一个可交易的产品”。而 InstrumentConfig 则是用来“描述和配置这个产品”的数据结构，这样你的交易引擎才能正确地识别和处理它。",
+			"file": "learn-map.md",
+			"file_size": 6810,
+			"file_write_time": 134000010041276958,
+			"settings":
+			{
+				"buffer_size": 3642,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "这是一个推荐的学习路径，分为五个步骤："
+			},
+			"undo_stack":
+			[
+				[
+					4,
+					1,
+					"",
+					null,
+					"AQAAAAAAAAAAAAAAzAkAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					46,
+					1,
+					"paste",
+					null,
+					"AQAAACUAAAAAAAAAJgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAJQAAAAAAAAAlAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					47,
+					1,
+					"left_delete",
+					null,
+					"AQAAACUAAAAAAAAAJQAAAAAAAAADAAAA77yI",
+					"AQAAAAAAAAABAAAAJgAAAAAAAAAmAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					54,
+					1,
+					"insert",
+					{
+						"characters": "\n\n\n##"
+					},
+					"BwAAAMwJAAAAAAAAzwkAAAAAAAAAAAAAzwkAAAAAAADSCQAAAAAAAAAAAADNCQAAAAAAAM0JAAAAAAAAAgAAACAg0AkAAAAAAADTCQAAAAAAAAAAAADOCQAAAAAAAM4JAAAAAAAAAgAAACAg0QkAAAAAAADSCQAAAAAAAAAAAADSCQAAAAAAANMJAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzAkAAAAAAADMCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					55,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAANMJAAAAAAAA1AkAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0wkAAAAAAADTCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					56,
+					1,
+					"insert",
+					{
+						"characters": "Sturcu"
+					},
+					"BgAAANQJAAAAAAAA1QkAAAAAAAAAAAAA1QkAAAAAAADWCQAAAAAAAAAAAADWCQAAAAAAANcJAAAAAAAAAAAAANcJAAAAAAAA2AkAAAAAAAAAAAAA2AkAAAAAAADZCQAAAAAAAAAAAADZCQAAAAAAANoJAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1AkAAAAAAADUCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					57,
+					4,
+					"left_delete",
+					null,
+					"BAAAANkJAAAAAAAA2QkAAAAAAAABAAAAddgJAAAAAAAA2AkAAAAAAAABAAAAY9cJAAAAAAAA1wkAAAAAAAABAAAActYJAAAAAAAA1gkAAAAAAAABAAAAdQ",
+					"AQAAAAAAAAABAAAA2gkAAAAAAADaCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					58,
+					1,
+					"insert",
+					{
+						"characters": "ructure"
+					},
+					"BwAAANYJAAAAAAAA1wkAAAAAAAAAAAAA1wkAAAAAAADYCQAAAAAAAAAAAADYCQAAAAAAANkJAAAAAAAAAAAAANkJAAAAAAAA2gkAAAAAAAAAAAAA2gkAAAAAAADbCQAAAAAAAAAAAADbCQAAAAAAANwJAAAAAAAAAAAAANwJAAAAAAAA3QkAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1gkAAAAAAADWCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					59,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAN0JAAAAAAAA4AkAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3QkAAAAAAADdCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					61,
+					1,
+					"",
+					null,
+					"AQAAAOAJAAAAAAAAMg8AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4AkAAAAAAADgCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					66,
+					1,
+					"insert",
+					{
+						"characters": "\n###"
+					},
+					"BQAAAN0JAAAAAAAA3QkAAAAAAABiAAAACiAg5b6I5aW955qE6Zeu6aKY77yB6L+Z5piv55CG6Kej5Lu75L2V5Lqk5piT57O757uf77yI5YyF5ousIGJhcnRlci1yc++8ieeahOaguOW/g+amguW/teS5i+S4gOOAggrdCQAAAAAAAOAJAAAAAAAAAAAAAOAJAAAAAAAA4QkAAAAAAAAAAAAA4QkAAAAAAADiCQAAAAAAAAAAAADiCQAAAAAAAOMJAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3QkAAAAAAAAHCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					67,
+					1,
+					"insert",
+					{
+						"characters": " Ins"
+					},
+					"BAAAAOMJAAAAAAAA5AkAAAAAAAAAAAAA5AkAAAAAAADlCQAAAAAAAAAAAADlCQAAAAAAAOYJAAAAAAAAAAAAAOYJAAAAAAAA5wkAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4wkAAAAAAADjCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					68,
+					1,
+					"insert",
+					{
+						"characters": "trument"
+					},
+					"BwAAAOcJAAAAAAAA6AkAAAAAAAAAAAAA6AkAAAAAAADpCQAAAAAAAAAAAADpCQAAAAAAAOoJAAAAAAAAAAAAAOoJAAAAAAAA6wkAAAAAAAAAAAAA6wkAAAAAAADsCQAAAAAAAAAAAADsCQAAAAAAAO0JAAAAAAAAAAAAAO0JAAAAAAAA7gkAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5wkAAAAAAADnCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					80,
+					1,
+					"left_delete",
+					null,
+					"EgAAAA0OAAAAAAAADQ4AAAAAAAAGAAAAICAgMTggAw4AAAAAAAADDgAAAAAAAAYAAAAgICAxNyD3DQAAAAAAAPcNAAAAAAAABgAAACAgIDE2IN8NAAAAAAAA3w0AAAAAAAAGAAAAICAgMTUgtw0AAAAAAAC3DQAAAAAAAAYAAAAgICAxNCCPDQAAAAAAAI8NAAAAAAAABgAAACAgIDEzIIMNAAAAAAAAgw0AAAAAAAAGAAAAICAgMTIgdg0AAAAAAAB2DQAAAAAAAAYAAAAgICAxMSA4DQAAAAAAADgNAAAAAAAABgAAACAgIDEwICkNAAAAAAAAKQ0AAAAAAAAGAAAAICAgIDkg6QwAAAAAAADpDAAAAAAAAAYAAAAgICAgOCCpDAAAAAAAAKkMAAAAAAAABgAAACAgICA3II0MAAAAAAAAjQwAAAAAAAAGAAAAICAgIDYgRAwAAAAAAABEDAAAAAAAAAYAAAAgICAgNSACDAAAAAAAAAIMAAAAAAAABgAAACAgICA0IPYLAAAAAAAA9gsAAAAAAAAGAAAAICAgIDMg3QsAAAAAAADdCwAAAAAAAAYAAAAgICAgMiDVCwAAAAAAANULAAAAAAAABgAAACAgICAxIA",
+					"AQAAAAAAAAASAAAA1QsAAAAAAADbCwAAAAAAAAAAAAAAAPC/3QsAAAAAAADjCwAAAAAAAAAAAAAAAPC/9gsAAAAAAAD8CwAAAAAAAAAAAAAAAPC/AgwAAAAAAAAIDAAAAAAAAAAAAAAAAPC/RAwAAAAAAABKDAAAAAAAAAAAAAAAAPC/jQwAAAAAAACTDAAAAAAAAAAAAAAAAPC/qQwAAAAAAACvDAAAAAAAAAAAAAAAAPC/6QwAAAAAAADvDAAAAAAAAAAAAAAAAPC/KQ0AAAAAAAAvDQAAAAAAAAAAAAAAAPC/OA0AAAAAAAA+DQAAAAAAAAAAAAAAAPC/dg0AAAAAAAB8DQAAAAAAAAAAAAAAAPC/gw0AAAAAAACJDQAAAAAAAAAAAAAAAPC/jw0AAAAAAACVDQAAAAAAAAAAAAAAAPC/tw0AAAAAAAC9DQAAAAAAAAAAAAAAAPC/3w0AAAAAAADlDQAAAAAAAAAAAAAAAPC/9w0AAAAAAAD9DQAAAAAAAAAAAAAAAPC/Aw4AAAAAAAAJDgAAAAAAAAAAAAAAAPC/DQ4AAAAAAAATDgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					83,
+					1,
+					"insert_snippet",
+					{
+						"contents": "`$0`"
+					},
+					"AQAAAKkNAAAAAAAAqw0AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqQ0AAAAAAACpDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					84,
+					1,
+					"insert",
+					{
+						"characters": "``"
+					},
+					"AgAAAKoNAAAAAAAAqw0AAAAAAAAAAAAAqw0AAAAAAACsDQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqg0AAAAAAACqDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					86,
+					1,
+					"cut",
+					null,
+					"AQAAAKwNAAAAAAAArA0AAAAAAAABAAAAYA",
+					"AQAAAAAAAAABAAAArA0AAAAAAACtDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					89,
+					3,
+					"paste",
+					null,
+					"AwAAANQLAAAAAAAA1QsAAAAAAAAAAAAA1QsAAAAAAADWCwAAAAAAAAAAAADWCwAAAAAAANcLAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1AsAAAAAAADUCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					93,
+					1,
+					"unindent",
+					null,
+					"TwAAAAAAAAAAAAAAAAAAAAAAAAACAAAAICAVAAAAAAAAABUAAAAAAAAAAgAAACAgLAAAAAAAAAAsAAAAAAAAAAIAAAAgIFEAAAAAAAAAUQAAAAAAAAADAAAAICAgigAAAAAAAACKAAAAAAAAAAMAAAAgICDMAAAAAAAAAMwAAAAAAAAAAgAAACAgJAEAAAAAAAAkAQAAAAAAAAIAAAAgIEIBAAAAAAAAQgEAAAAAAAACAAAAICB0AQAAAAAAAHQBAAAAAAAAAwAAACAgIM4BAAAAAAAAzgEAAAAAAAADAAAAICAgFQIAAAAAAAAVAgAAAAAAAAMAAAAgICBHAgAAAAAAAEcCAAAAAAAAAwAAACAgIIcCAAAAAAAAhwIAAAAAAAACAAAAICCNAgAAAAAAAI0CAAAAAAAAAwAAACAgIJ0CAAAAAAAAnQIAAAAAAAADAAAAICAg9gIAAAAAAAD2AgAAAAAAAAMAAAAgICAqAwAAAAAAACoDAAAAAAAAAwAAACAgIEIDAAAAAAAAQgMAAAAAAAACAAAAICBwAwAAAAAAAHADAAAAAAAAAgAAACAgiwMAAAAAAACLAwAAAAAAAAIAAAAgILoDAAAAAAAAugMAAAAAAAADAAAAICAgKAQAAAAAAAAoBAAAAAAAAAMAAAAgICCABAAAAAAAAIAEAAAAAAAAAwAAACAgIPwEAAAAAAAA/AQAAAAAAAACAAAAICA0BQAAAAAAADQFAAAAAAAAAgAAACAgUwUAAAAAAABTBQAAAAAAAAIAAAAgIHsFAAAAAAAAewUAAAAAAAADAAAAICAg7wUAAAAAAADvBQAAAAAAAAMAAAAgICBdBgAAAAAAAF0GAAAAAAAAAgAAACAgkgYAAAAAAACSBgAAAAAAAAIAAAAgILIGAAAAAAAAsgYAAAAAAAACAAAAICDZBgAAAAAAANkGAAAAAAAAAwAAACAgIEQHAAAAAAAARAcAAAAAAAADAAAAICAgkgcAAAAAAACSBwAAAAAAAAIAAAAgIM4HAAAAAAAAzgcAAAAAAAACAAAAICDTBwAAAAAAANMHAAAAAAAAAgAAACAg3wcAAAAAAADfBwAAAAAAAAMAAAAgICD4BwAAAAAAAPgHAAAAAAAAAwAAACAgIGIIAAAAAAAAYggAAAAAAAADAAAAICAgkQgAAAAAAACRCAAAAAAAAAMAAAAgICC8CAAAAAAAALwIAAAAAAAAAwAAACAgIPwIAAAAAAAA/AgAAAAAAAADAAAAICAgLgkAAAAAAAAuCQAAAAAAAAIAAAAgIGIJAAAAAAAAYgkAAAAAAAACAAAAICBvCQAAAAAAAG8JAAAAAAAAAgAAACAgfgkAAAAAAAB+CQAAAAAAAAIAAAAgILAJAAAAAAAAsAkAAAAAAAACAAAAICDKCQAAAAAAAMoJAAAAAAAAAwAAACAgIOkJAAAAAAAA6QkAAAAAAAADAAAAICAgDwoAAAAAAAAPCgAAAAAAAAMAAAAgICAwCgAAAAAAADAKAAAAAAAAAwAAACAgIFcKAAAAAAAAVwoAAAAAAAACAAAAICBcCgAAAAAAAFwKAAAAAAAAAgAAACAgbwoAAAAAAABvCgAAAAAAAAIAAAAgIM4KAAAAAAAAzgoAAAAAAAACAAAAICDnCgAAAAAAAOcKAAAAAAAAAgAAACAgTwsAAAAAAABPCwAAAAAAAAIAAAAgIGALAAAAAAAAYAsAAAAAAAADAAAAICAgYwsAAAAAAABjCwAAAAAAAAMAAAAgICCcCwAAAAAAAJwLAAAAAAAAAwAAACAgINwLAAAAAAAA3AsAAAAAAAADAAAAICAg7wsAAAAAAADvCwAAAAAAAAMAAAAgICAmDAAAAAAAACYMAAAAAAAAAwAAACAgIF0MAAAAAAAAXQwAAAAAAAADAAAAICAgYwwAAAAAAABjDAAAAAAAAAMAAAAgICCYDAAAAAAAAJgMAAAAAAAAAwAAACAgIJwMAAAAAAAAnAwAAAAAAAADAAAAICAgnwwAAAAAAACfDAAAAAAAAAMAAAAgICC+DAAAAAAAAL4MAAAAAAAAAwAAACAgIN0MAAAAAAAA3QwAAAAAAAADAAAAICAg7AwAAAAAAADsDAAAAAAAAAMAAAAgICDvDAAAAAAAAO8MAAAAAAAAAgAAACAg9wwAAAAAAAD3DAAAAAAAAAIAAAAgICoNAAAAAAAAKg0AAAAAAAADAAAAICAgNw0AAAAAAAA3DQAAAAAAAAMAAAAgICBKDQAAAAAAAEoNAAAAAAAAAwAAACAgIFYNAAAAAAAAVg0AAAAAAAADAAAAICAggg0AAAAAAACCDQAAAAAAAAIAAAAgIIYNAAAAAAAAhg0AAAAAAAACAAAAICA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAACzDgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					97,
+					1,
+					"insert",
+					{
+						"characters": "json"
+					},
+					"BAAAAEwLAAAAAAAATQsAAAAAAAAAAAAATQsAAAAAAABOCwAAAAAAAAAAAABOCwAAAAAAAE8LAAAAAAAAAAAAAE8LAAAAAAAAUAsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATAsAAAAAAABMCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					100,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAFMLAAAAAAAAVgsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAUwsAAAAAAABTCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					103,
+					1,
+					"indent",
+					null,
+					"DwAAAGcLAAAAAAAAagsAAAAAAAAAAAAAbQsAAAAAAABwCwAAAAAAAAAAAACpCwAAAAAAAKwLAAAAAAAAAAAAAOwLAAAAAAAA7wsAAAAAAAAAAAAAAgwAAAAAAAAFDAAAAAAAAAAAAAA8DAAAAAAAAD8MAAAAAAAAAAAAAHYMAAAAAAAAeQwAAAAAAAAAAAAAfwwAAAAAAACCDAAAAAAAAAAAAAC3DAAAAAAAALoMAAAAAAAAAAAAAL4MAAAAAAAAwQwAAAAAAAAAAAAAxAwAAAAAAADHDAAAAAAAAAAAAADmDAAAAAAAAOkMAAAAAAAAAAAAAAgNAAAAAAAACw0AAAAAAAAAAAAAGg0AAAAAAAAdDQAAAAAAAAAAAAAgDQAAAAAAACMNAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA9wwAAAAAAABnCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					108,
+					1,
+					"insert",
+					{
+						"characters": "\t\t"
+					},
+					"AgAAAH4MAAAAAAAAfwwAAAAAAAAAAAAAfwwAAAAAAACCDAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAfgwAAAAAAAB+DAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					113,
+					2,
+					"left_delete",
+					null,
+					"AgAAAHkMAAAAAAAAeQwAAAAAAAADAAAAICAgdgwAAAAAAAB2DAAAAAAAAAMAAAAgICA",
+					"AQAAAAAAAAABAAAAfAwAAAAAAAB8DAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					114,
+					1,
+					"insert",
+					{
+						"characters": "\t\t"
+					},
+					"AgAAAHYMAAAAAAAAeQwAAAAAAAAAAAAAeQwAAAAAAAB8DAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAdgwAAAAAAAB2DAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					125,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAIkMAAAAAAAAjAwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAiQwAAAAAAACJDAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					126,
+					4,
+					"unindent",
+					null,
+					"AwAAAIMMAAAAAAAAgwwAAAAAAAADAAAAICAggwwAAAAAAACDDAAAAAAAAAMAAAAgICCDDAAAAAAAAIMMAAAAAAAAAwAAACAgIA",
+					"AQAAAAAAAAABAAAAjAwAAAAAAACMDAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					127,
+					1,
+					"insert",
+					{
+						"characters": "\t\t\t"
+					},
+					"AwAAAIMMAAAAAAAAhgwAAAAAAAAAAAAAhgwAAAAAAACJDAAAAAAAAAAAAACJDAAAAAAAAIwMAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAgwwAAAAAAACDDAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					130,
+					1,
+					"insert",
+					{
+						"characters": "\t\t"
+					},
+					"AgAAAMQMAAAAAAAAxwwAAAAAAAAAAAAAxwwAAAAAAADKDAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxAwAAAAAAADEDAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					133,
+					2,
+					"unindent",
+					null,
+					"AgAAAL4MAAAAAAAAvgwAAAAAAAADAAAAICAgvgwAAAAAAAC+DAAAAAAAAAEAAAAg",
+					"AQAAAAAAAAABAAAAwgwAAAAAAADCDAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					134,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAL4MAAAAAAAAwQwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAvgwAAAAAAAC+DAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					137,
+					2,
+					"unindent",
+					null,
+					"AgAAAMoMAAAAAAAAygwAAAAAAAADAAAAICAgygwAAAAAAADKDAAAAAAAAAEAAAAg",
+					"AQAAAAAAAAABAAAAzgwAAAAAAADODAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					138,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAMoMAAAAAAAAzQwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAygwAAAAAAADKDAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					143,
+					2,
+					"unindent",
+					null,
+					"AgAAACUNAAAAAAAAJQ0AAAAAAAADAAAAICAgJQ0AAAAAAAAlDQAAAAAAAAEAAAAg",
+					"AQAAAAAAAAABAAAAKQ0AAAAAAAApDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					144,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAACUNAAAAAAAAKA0AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAJQ0AAAAAAAAlDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					151,
+					1,
+					"unindent",
+					null,
+					"AQAAAIMMAAAAAAAAgwwAAAAAAAADAAAAICAg",
+					"AQAAAAAAAAABAAAAjAwAAAAAAACMDAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					154,
+					1,
+					"indent",
+					null,
+					"DgAAAGcLAAAAAAAAagsAAAAAAAAAAAAAcAsAAAAAAABzCwAAAAAAAAAAAACvCwAAAAAAALILAAAAAAAAAAAAAPULAAAAAAAA+AsAAAAAAAAAAAAADgwAAAAAAAARDAAAAAAAAAAAAABLDAAAAAAAAE4MAAAAAAAAAAAAAIgMAAAAAAAAiwwAAAAAAAAAAAAAmAwAAAAAAACbDAAAAAAAAAAAAADTDAAAAAAAANYMAAAAAAAAAAAAAOIMAAAAAAAA5QwAAAAAAAAAAAAA6gwAAAAAAADtDAAAAAAAAAAAAAAPDQAAAAAAABINAAAAAAAAAAAAADQNAAAAAAAANw0AAAAAAAAAAAAASQ0AAAAAAABMDQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAJg0AAAAAAABnCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					161,
+					4,
+					"unindent",
+					null,
+					"AwAAAHALAAAAAAAAcAsAAAAAAAADAAAAICAgcAsAAAAAAABwCwAAAAAAAAMAAAAgICBwCwAAAAAAAHALAAAAAAAAAwAAACAgIA",
+					"AQAAAAAAAAABAAAAeQsAAAAAAAB5CwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					164,
+					7,
+					"unindent",
+					null,
+					"FAAAAKYLAAAAAAAApgsAAAAAAAADAAAAICAg6QsAAAAAAADpCwAAAAAAAAMAAAAgICD/CwAAAAAAAP8LAAAAAAAAAwAAACAgIDkMAAAAAAAAOQwAAAAAAAADAAAAICAgcwwAAAAAAABzDAAAAAAAAAMAAAAgICCADAAAAAAAAIAMAAAAAAAAAwAAACAgIKYLAAAAAAAApgsAAAAAAAADAAAAICAg5gsAAAAAAADmCwAAAAAAAAMAAAAgICD5CwAAAAAAAPkLAAAAAAAAAwAAACAgIDAMAAAAAAAAMAwAAAAAAAADAAAAICAgZwwAAAAAAABnDAAAAAAAAAMAAAAgICBxDAAAAAAAAHEMAAAAAAAAAwAAACAgIKYLAAAAAAAApgsAAAAAAAADAAAAICAg4wsAAAAAAADjCwAAAAAAAAMAAAAgICDzCwAAAAAAAPMLAAAAAAAAAwAAACAgICcMAAAAAAAAJwwAAAAAAAADAAAAICAgWwwAAAAAAABbDAAAAAAAAAMAAAAgICBiDAAAAAAAAGIMAAAAAAAAAwAAACAgIPMLAAAAAAAA8wsAAAAAAAACAAAAICAlDAAAAAAAACUMAAAAAAAAAgAAACAg",
+					"AQAAAAAAAAABAAAAyQwAAAAAAACmCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					165,
+					1,
+					"indent",
+					null,
+					"BgAAAKYLAAAAAAAAqQsAAAAAAAAAAAAA5gsAAAAAAADpCwAAAAAAAAAAAAD5CwAAAAAAAPwLAAAAAAAAAAAAAC4MAAAAAAAAMQwAAAAAAAAAAAAAYwwAAAAAAABmDAAAAAAAAAAAAABtDAAAAAAAAHAMAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAjwwAAAAAAACmCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					168,
+					2,
+					"indent",
+					null,
+					"DgAAAHALAAAAAAAAcwsAAAAAAAAAAAAAqQsAAAAAAACsCwAAAAAAAAAAAADsCwAAAAAAAO8LAAAAAAAAAAAAAAIMAAAAAAAABQwAAAAAAAAAAAAAOgwAAAAAAAA9DAAAAAAAAAAAAAByDAAAAAAAAHUMAAAAAAAAAAAAAH8MAAAAAAAAggwAAAAAAAAAAAAAcAsAAAAAAABzCwAAAAAAAAAAAACsCwAAAAAAAK8LAAAAAAAAAAAAAPILAAAAAAAA9QsAAAAAAAAAAAAACwwAAAAAAAAODAAAAAAAAAAAAABGDAAAAAAAAEkMAAAAAAAAAAAAAIEMAAAAAAAAhAwAAAAAAAAAAAAAkQwAAAAAAACUDAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAoQwAAAAAAAB5CwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					172,
+					1,
+					"unindent",
+					null,
+					"BwAAAHALAAAAAAAAcAsAAAAAAAADAAAAICAgqQsAAAAAAACpCwAAAAAAAAMAAAAgICDsCwAAAAAAAOwLAAAAAAAAAwAAACAgIAIMAAAAAAAAAgwAAAAAAAADAAAAICAgOgwAAAAAAAA6DAAAAAAAAAMAAAAgICByDAAAAAAAAHIMAAAAAAAAAwAAACAgIH8MAAAAAAAAfwwAAAAAAAADAAAAICAg",
+					"AQAAAAAAAAABAAAAywwAAAAAAABwCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					173,
+					2,
+					"indent",
+					null,
+					"DgAAAHALAAAAAAAAcwsAAAAAAAAAAAAArAsAAAAAAACvCwAAAAAAAAAAAADyCwAAAAAAAPULAAAAAAAAAAAAAAsMAAAAAAAADgwAAAAAAAAAAAAARgwAAAAAAABJDAAAAAAAAAAAAACBDAAAAAAAAIQMAAAAAAAAAAAAAJEMAAAAAAAAlAwAAAAAAAAAAAAAcAsAAAAAAABzCwAAAAAAAAAAAACvCwAAAAAAALILAAAAAAAAAAAAAPgLAAAAAAAA+wsAAAAAAAAAAAAAFAwAAAAAAAAXDAAAAAAAAAAAAABSDAAAAAAAAFUMAAAAAAAAAAAAAJAMAAAAAAAAkwwAAAAAAAAAAAAAowwAAAAAAACmDAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtgwAAAAAAABwCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					177,
+					1,
+					"unindent",
+					null,
+					"BgAAAK8LAAAAAAAArwsAAAAAAAADAAAAICAg9QsAAAAAAAD1CwAAAAAAAAMAAAAgICAODAAAAAAAAA4MAAAAAAAAAwAAACAgIEkMAAAAAAAASQwAAAAAAAADAAAAICAghAwAAAAAAACEDAAAAAAAAAMAAAAgICCUDAAAAAAAAJQMAAAAAAAAAwAAACAgIA",
+					"AQAAAAAAAAABAAAAuwsAAAAAAADPDAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					181,
+					1,
+					"indent",
+					null,
+					"AgAAAA4MAAAAAAAAEQwAAAAAAAAAAAAATAwAAAAAAABPDAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAgwwAAAAAAAAODAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					205,
+					3,
+					"unindent",
+					null,
+					"EgAAAHALAAAAAAAAcAsAAAAAAAADAAAAICAgrAsAAAAAAACsCwAAAAAAAAMAAAAgICDvCwAAAAAAAO8LAAAAAAAAAwAAACAgIAUMAAAAAAAABQwAAAAAAAADAAAAICAgQAwAAAAAAABADAAAAAAAAAMAAAAgICB7DAAAAAAAAHsMAAAAAAAAAwAAACAgIHALAAAAAAAAcAsAAAAAAAADAAAAICAgqQsAAAAAAACpCwAAAAAAAAMAAAAgICDpCwAAAAAAAOkLAAAAAAAAAwAAACAgIPwLAAAAAAAA/AsAAAAAAAADAAAAICAgNAwAAAAAAAA0DAAAAAAAAAMAAAAgICBsDAAAAAAAAGwMAAAAAAAAAwAAACAgIHALAAAAAAAAcAsAAAAAAAADAAAAICAgpgsAAAAAAACmCwAAAAAAAAMAAAAgICDjCwAAAAAAAOMLAAAAAAAAAwAAACAgIPMLAAAAAAAA8wsAAAAAAAADAAAAICAgKAwAAAAAAAAoDAAAAAAAAAMAAAAgICBdDAAAAAAAAF0MAAAAAAAAAwAAACAgIA",
+					"AQAAAAAAAAABAAAAmQwAAAAAAABwCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					206,
+					2,
+					"indent",
+					null,
+					"DAAAAHALAAAAAAAAcwsAAAAAAAAAAAAAqQsAAAAAAACsCwAAAAAAAAAAAADpCwAAAAAAAOwLAAAAAAAAAAAAAPwLAAAAAAAA/wsAAAAAAAAAAAAANAwAAAAAAAA3DAAAAAAAAAAAAABsDAAAAAAAAG8MAAAAAAAAAAAAAHALAAAAAAAAcwsAAAAAAAAAAAAArAsAAAAAAACvCwAAAAAAAAAAAADvCwAAAAAAAPILAAAAAAAAAAAAAAUMAAAAAAAACAwAAAAAAAAAAAAAQAwAAAAAAABDDAAAAAAAAAAAAAB7DAAAAAAAAH4MAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYwwAAAAAAABwCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					209,
+					5,
+					"unindent",
+					null,
+					"EQAAAGcLAAAAAAAAZwsAAAAAAAADAAAAICAgbQsAAAAAAABtCwAAAAAAAAMAAAAgICCmCwAAAAAAAKYLAAAAAAAAAwAAACAgIOYLAAAAAAAA5gsAAAAAAAADAAAAICAg+QsAAAAAAAD5CwAAAAAAAAMAAAAgICAxDAAAAAAAADEMAAAAAAAAAwAAACAgIGkMAAAAAAAAaQwAAAAAAAADAAAAICAgZwsAAAAAAABnCwAAAAAAAAMAAAAgICBqCwAAAAAAAGoLAAAAAAAAAwAAACAgIKALAAAAAAAAoAsAAAAAAAADAAAAICAg3QsAAAAAAADdCwAAAAAAAAMAAAAgICDtCwAAAAAAAO0LAAAAAAAAAwAAACAgICIMAAAAAAAAIgwAAAAAAAADAAAAICAgVwwAAAAAAABXDAAAAAAAAAMAAAAgICBnCwAAAAAAAGcLAAAAAAAAAQAAACDsCwAAAAAAAOwLAAAAAAAAAwAAACAgIB4MAAAAAAAAHgwAAAAAAAADAAAAICAg",
+					"AQAAAAAAAAABAAAAhwwAAAAAAABtCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					210,
+					3,
+					"indent",
+					null,
+					"FQAAAGcLAAAAAAAAagsAAAAAAAAAAAAAbAsAAAAAAABvCwAAAAAAAAAAAAClCwAAAAAAAKgLAAAAAAAAAAAAAOULAAAAAAAA6AsAAAAAAAAAAAAA+AsAAAAAAAD7CwAAAAAAAAAAAAAtDAAAAAAAADAMAAAAAAAAAAAAAGIMAAAAAAAAZQwAAAAAAAAAAAAAZwsAAAAAAABqCwAAAAAAAAAAAABvCwAAAAAAAHILAAAAAAAAAAAAAKsLAAAAAAAArgsAAAAAAAAAAAAA7gsAAAAAAADxCwAAAAAAAAAAAAAEDAAAAAAAAAcMAAAAAAAAAAAAADwMAAAAAAAAPwwAAAAAAAAAAAAAdAwAAAAAAAB3DAAAAAAAAAAAAABnCwAAAAAAAGoLAAAAAAAAAAAAAHILAAAAAAAAdQsAAAAAAAAAAAAAsQsAAAAAAAC0CwAAAAAAAAAAAAD3CwAAAAAAAPoLAAAAAAAAAAAAABAMAAAAAAAAEwwAAAAAAAAAAAAASwwAAAAAAABODAAAAAAAAAAAAACGDAAAAAAAAIkMAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVgwAAAAAAABnCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					212,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAHELAAAAAAAAcwsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcQsAAAAAAABxCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					215,
+					1,
+					"unindent",
+					null,
+					"AQAAAGcLAAAAAAAAZwsAAAAAAAADAAAAICAg",
+					"AQAAAAAAAAABAAAAcAsAAAAAAABwCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					218,
+					1,
+					"unindent",
+					null,
+					"AQAAAIUMAAAAAAAAhQwAAAAAAAADAAAAICAg",
+					"AQAAAAAAAAABAAAAjgwAAAAAAACODAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					225,
+					1,
+					"indent",
+					null,
+					"AwAAAA8MAAAAAAAAEgwAAAAAAAAAAAAATQwAAAAAAABQDAAAAAAAAAAAAACLDAAAAAAAAI4MAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAjQwAAAAAAAAPDAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					239,
+					1,
+					"insert",
+					{
+						"characters": ")==="
+					},
+					"BAAAAM8NAAAAAAAA0A0AAAAAAAACAAAAKSDQDQAAAAAAANENAAAAAAAAAAAAANENAAAAAAAA0g0AAAAAAAAAAAAA0g0AAAAAAADTDQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0Q0AAAAAAADPDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					240,
+					4,
+					"left_delete",
+					null,
+					"BAAAANINAAAAAAAA0g0AAAAAAAABAAAAPdENAAAAAAAA0Q0AAAAAAAABAAAAPdANAAAAAAAA0A0AAAAAAAABAAAAPc8NAAAAAAAAzw0AAAAAAAABAAAAKQ",
+					"AQAAAAAAAAABAAAA0w0AAAAAAADTDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					241,
+					1,
+					"insert",
+					{
+						"characters": ")"
+					},
+					"AQAAAM8NAAAAAAAA0A0AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzw0AAAAAAADPDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					242,
+					1,
+					"left_delete",
+					null,
+					"AQAAAM8NAAAAAAAAzw0AAAAAAAABAAAAKQ",
+					"AQAAAAAAAAABAAAA0A0AAAAAAADQDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					243,
+					1,
+					"insert",
+					{
+						"characters": "f"
+					},
+					"AQAAAM8NAAAAAAAA0A0AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzw0AAAAAAADPDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					244,
+					1,
+					"left_delete",
+					null,
+					"AQAAAM8NAAAAAAAAzw0AAAAAAAABAAAAZg",
+					"AQAAAAAAAAABAAAA0A0AAAAAAADQDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					251,
+					1,
+					"insert",
+					{
+						"characters": ")"
+					},
+					"AQAAAN0NAAAAAAAA3g0AAAAAAAACAAAAKSA",
+					"AQAAAAAAAAABAAAA3Q0AAAAAAADfDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					252,
+					1,
+					"left_delete",
+					null,
+					"AQAAAN0NAAAAAAAA3Q0AAAAAAAABAAAAKQ",
+					"AQAAAAAAAAABAAAA3g0AAAAAAADeDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					253,
+					1,
+					"insert",
+					{
+						"characters": "）"
+					},
+					"AQAAAN0NAAAAAAAA3g0AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3Q0AAAAAAADdDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					255,
+					2,
+					"left_delete",
+					null,
+					"AgAAANgNAAAAAAAA2A0AAAAAAAABAAAAKNcNAAAAAAAA1w0AAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAA2Q0AAAAAAADZDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					256,
+					1,
+					"insert",
+					{
+						"characters": "（"
+					},
+					"AQAAANcNAAAAAAAA2A0AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1w0AAAAAAADXDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					260,
+					1,
+					"insert",
+					{
+						"characters": "（"
+					},
+					"AQAAAMkNAAAAAAAAyg0AAAAAAAACAAAAICg",
+					"AQAAAAAAAAABAAAAyQ0AAAAAAADLDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					276,
+					1,
+					"insert",
+					{
+						"characters": "（"
+					},
+					"AQAAACQKAAAAAAAAJQoAAAAAAAACAAAAICg",
+					"AQAAAAAAAAABAAAAJgoAAAAAAAAkCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					279,
+					1,
+					"insert",
+					{
+						"characters": "）"
+					},
+					"AQAAACwKAAAAAAAALQoAAAAAAAABAAAAKQ",
+					"AQAAAAAAAAABAAAALAoAAAAAAAAtCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					283,
+					1,
+					"insert",
+					{
+						"characters": "（"
+					},
+					"AQAAAEgKAAAAAAAASQoAAAAAAAACAAAAICg",
+					"AQAAAAAAAAABAAAASgoAAAAAAABICgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					285,
+					1,
+					"left_delete",
+					null,
+					"AQAAAFEKAAAAAAAAUQoAAAAAAAABAAAAKQ",
+					"AQAAAAAAAAABAAAAUgoAAAAAAABSCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					286,
+					1,
+					"insert",
+					{
+						"characters": "）"
+					},
+					"AQAAAFEKAAAAAAAAUgoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAUQoAAAAAAABRCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					290,
+					1,
+					"insert",
+					{
+						"characters": "）"
+					},
+					"AQAAAOYJAAAAAAAA5wkAAAAAAAABAAAAKQ",
+					"AQAAAAAAAAABAAAA5wkAAAAAAADmCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					293,
+					2,
+					"left_delete",
+					null,
+					"AgAAAOEJAAAAAAAA4QkAAAAAAAABAAAAKOAJAAAAAAAA4AkAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAA4gkAAAAAAADiCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					294,
+					1,
+					"insert",
+					{
+						"characters": "（"
+					},
+					"AQAAAOAJAAAAAAAA4QkAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4AkAAAAAAADgCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					304,
+					1,
+					"insert",
+					{
+						"characters": "（"
+					},
+					"AQAAAPMIAAAAAAAA9AgAAAAAAAACAAAAICg",
+					"AQAAAAAAAAABAAAA8wgAAAAAAAD1CAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					306,
+					1,
+					"left_delete",
+					null,
+					"AQAAAPkIAAAAAAAA+QgAAAAAAAABAAAAKQ",
+					"AQAAAAAAAAABAAAA+ggAAAAAAAD6CAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					307,
+					1,
+					"insert",
+					{
+						"characters": "）"
+					},
+					"AQAAAPkIAAAAAAAA+ggAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA+QgAAAAAAAD5CAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					310,
+					1,
+					"insert",
+					{
+						"characters": "（"
+					},
+					"AQAAABgJAAAAAAAAGQkAAAAAAAACAAAAICg",
+					"AQAAAAAAAAABAAAAGgkAAAAAAAAYCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					314,
+					1,
+					"insert",
+					{
+						"characters": "）"
+					},
+					"AQAAACkJAAAAAAAAKgkAAAAAAAABAAAAKQ",
+					"AQAAAAAAAAABAAAAKQkAAAAAAAAqCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					318,
+					1,
+					"left_delete",
+					null,
+					"AQAAALoIAAAAAAAAuggAAAAAAAABAAAAKQ",
+					"AQAAAAAAAAABAAAAuwgAAAAAAAC7CAAAAAAAAAAAAAAAAHlA"
+				],
+				[
+					319,
+					1,
+					"insert",
+					{
+						"characters": "）"
+					},
+					"AQAAALoIAAAAAAAAuwgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuggAAAAAAAC6CAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					321,
+					2,
+					"left_delete",
+					null,
+					"AgAAAK0IAAAAAAAArQgAAAAAAAABAAAAKKwIAAAAAAAArAgAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAArggAAAAAAACuCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					322,
+					1,
+					"insert",
+					{
+						"characters": "（"
+					},
+					"AQAAAKwIAAAAAAAArQgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAArAgAAAAAAACsCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					326,
+					2,
+					"left_delete",
+					null,
+					"AgAAAHcIAAAAAAAAdwgAAAAAAAABAAAAKHYIAAAAAAAAdggAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAeAgAAAAAAAB4CAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					327,
+					1,
+					"insert",
+					{
+						"characters": "（"
+					},
+					"AQAAAHYIAAAAAAAAdwgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAdggAAAAAAAB2CAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					331,
+					1,
+					"left_delete",
+					null,
+					"AQAAAI4IAAAAAAAAjggAAAAAAAABAAAAKQ",
+					"AQAAAAAAAAABAAAAjwgAAAAAAACPCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					332,
+					1,
+					"insert",
+					{
+						"characters": "）"
+					},
+					"AQAAAI4IAAAAAAAAjwgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAjggAAAAAAACOCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					338,
+					2,
+					"left_delete",
+					null,
+					"AgAAAE0IAAAAAAAATQgAAAAAAAABAAAAKEwIAAAAAAAATAgAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAATggAAAAAAABOCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					339,
+					1,
+					"insert",
+					{
+						"characters": "（"
+					},
+					"AQAAAEwIAAAAAAAATQgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATAgAAAAAAABMCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					342,
+					1,
+					"left_delete",
+					null,
+					"AQAAAF8IAAAAAAAAXwgAAAAAAAABAAAAKQ",
+					"AQAAAAAAAAABAAAAYAgAAAAAAABgCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					343,
+					1,
+					"insert",
+					{
+						"characters": "）"
+					},
+					"AQAAAF8IAAAAAAAAYAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXwgAAAAAAABfCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					346,
+					1,
+					"insert",
+					{
+						"characters": "（"
+					},
+					"AQAAAKoFAAAAAAAAqwUAAAAAAAACAAAAICg",
+					"AQAAAAAAAAABAAAArAUAAAAAAACqBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					348,
+					1,
+					"left_delete",
+					null,
+					"AQAAALcFAAAAAAAAtwUAAAAAAAABAAAAKQ",
+					"AQAAAAAAAAABAAAAuAUAAAAAAAC4BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					349,
+					1,
+					"insert",
+					{
+						"characters": "）"
+					},
+					"AQAAALcFAAAAAAAAuAUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtwUAAAAAAAC3BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					353,
+					2,
+					"left_delete",
+					null,
+					"AgAAACUGAAAAAAAAJQYAAAAAAAABAAAAKCQGAAAAAAAAJAYAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAJgYAAAAAAAAmBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					354,
+					1,
+					"insert",
+					{
+						"characters": "（"
+					},
+					"AQAAACQGAAAAAAAAJQYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAJAYAAAAAAAAkBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					356,
+					1,
+					"left_delete",
+					null,
+					"AQAAADQGAAAAAAAANAYAAAAAAAABAAAAKQ",
+					"AQAAAAAAAAABAAAANQYAAAAAAAA1BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					357,
+					1,
+					"insert",
+					{
+						"characters": "）"
+					},
+					"AQAAADQGAAAAAAAANQYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANAYAAAAAAAA0BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					360,
+					1,
+					"left_delete",
+					null,
+					"AQAAAKACAAAAAAAAoAIAAAAAAAADAAAAICAg",
+					"AQAAAAAAAAABAAAAowIAAAAAAACgAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					390,
+					2,
+					"left_delete",
+					null,
+					"AgAAAF8AAAAAAAAAXwAAAAAAAAABAAAAKF4AAAAAAAAAXgAAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAYAAAAAAAAABgAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					391,
+					1,
+					"insert",
+					{
+						"characters": "（"
+					},
+					"AQAAAF4AAAAAAAAAXwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXgAAAAAAAABeAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					394,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGIAAAAAAAAAYgAAAAAAAAABAAAAKQ",
+					"AQAAAAAAAAABAAAAYwAAAAAAAABjAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					395,
+					1,
+					"insert",
+					{
+						"characters": "）"
+					},
+					"AQAAAGIAAAAAAAAAYwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYgAAAAAAAABiAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					399,
+					2,
+					"left_delete",
+					null,
+					"AgAAAGQAAAAAAAAAZAAAAAAAAAABAAAAIGMAAAAAAAAAYwAAAAAAAAABAAAAOg",
+					"AQAAAAAAAAABAAAAZQAAAAAAAABlAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					400,
+					1,
+					"insert",
+					{
+						"characters": "："
+					},
+					"AQAAAGMAAAAAAAAAZAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYwAAAAAAAABjAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					405,
+					1,
+					"insert",
+					{
+						"characters": "（"
+					},
+					"AQAAAI0EAAAAAAAAjgQAAAAAAAACAAAAICg",
+					"AQAAAAAAAAABAAAAjQQAAAAAAACPBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					408,
+					3,
+					"left_delete",
+					null,
+					"AwAAAKcEAAAAAAAApwQAAAAAAAABAAAAIKYEAAAAAAAApgQAAAAAAAABAAAAOqUEAAAAAAAApQQAAAAAAAABAAAAKQ",
+					"AQAAAAAAAAABAAAAqAQAAAAAAACoBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					409,
+					1,
+					"insert",
+					{
+						"characters": "）："
+					},
+					"AgAAAKUEAAAAAAAApgQAAAAAAAAAAAAApgQAAAAAAACnBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAApQQAAAAAAAClBAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				" bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"settings",
+				"Preferences: LSP Settings"
+			],
+			[
+				"resource",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"packageRE",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"lsp en",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package Control in",
+				"Package Control: Install Package"
+			],
+			[
+				"Pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Install Package Control",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/ethan/Documents/barter-rs",
+		"/home/ethan/Documents/barter-rs/barter",
+		"/home/ethan/Documents/barter-rs/barter/examples",
+		"/home/ethan/Documents/barter-rs/barter/examples/config"
+	],
+	"file_history":
+	[
+		"/home/ethan/.config/sublime-text/Packages/User/mdpopups.css",
+		"/home/ethan/Documents/test-rust/src/main.rs",
+		"/home/ethan/.config/sublime-text/Packages/LSP/inlay_hints.css",
+		"/home/ethan/.config/sublime-text/Packages/LSP/popups.css",
+		"/home/ethan/.config/sublime-text/Packages/LSP/README.md",
+		"/home/ethan/.config/sublime-text/Packages/LSP/annotations.css",
+		"/home/ethan/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+		"/home/ethan/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+		"/home/ethan/Documents/test-rust/Cargo.toml"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "rustfmt.toml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 46,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"lsp_uri": "file:///home/ethan/Documents/barter-rs/rustfmt.toml",
+							"syntax": "Packages/TOML/TOML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "barter-data/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14017,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								164,
+								164
+							]
+						],
+						"settings":
+						{
+							"lsp_uri": "file:///home/ethan/Documents/barter-rs/barter-data/README.md",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "rust-toolchain.toml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"lsp_uri": "file:///home/ethan/Documents/barter-rs/rust-toolchain.toml",
+							"syntax": "Packages/TOML/TOML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "release-plz.toml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 716,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"lsp_uri": "file:///home/ethan/Documents/barter-rs/release-plz.toml",
+							"syntax": "Packages/TOML/TOML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8880,
+								8544
+							]
+						],
+						"settings":
+						{
+							"lsp_uri": "file:///home/ethan/Documents/barter-rs/README.md",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5182.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "barter/examples/statistical_trading_summary.rs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11389,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".:",
+									"selector": "source.rust"
+								},
+								{
+									"characters": ":.'(",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "rust-analyzer"
+								}
+							],
+							"lsp_active": true,
+							"lsp_uri": "file:///home/ethan/Documents/barter-rs/barter/examples/statistical_trading_summary.rs",
+							"show_definitions": false,
+							"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "barter-rs.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 407,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								407,
+								407
+							]
+						],
+						"settings":
+						{
+							"lsp_uri": "file:///home/ethan/Documents/barter-rs/barter-rs.sublime-project",
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Cargo.toml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2189,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								10
+							]
+						],
+						"settings":
+						{
+							"lsp_uri": "file:///home/ethan/Documents/barter-rs/Cargo.toml",
+							"syntax": "Packages/TOML/TOML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "barter/src/lib.rs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9431,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8175,
+								8175
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".:",
+									"selector": "source.rust"
+								},
+								{
+									"characters": ":.'(",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "rust-analyzer"
+								}
+							],
+							"lsp_active": true,
+							"lsp_uri": "file:///home/ethan/Documents/barter-rs/barter/src/lib.rs",
+							"show_definitions": false,
+							"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4978.5,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "barter/examples/config/backtest_config.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								33,
+								39
+							]
+						],
+						"settings":
+						{
+							"lsp_uri": "file:///home/ethan/Documents/barter-rs/barter/examples/config/backtest_config.json",
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "barter/examples/config/system_config.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2026,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52,
+								52
+							]
+						],
+						"settings":
+						{
+							"lsp_uri": "file:///home/ethan/Documents/barter-rs/barter/examples/config/system_config.json",
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "barter/examples/engine_sync_with_live_market_data_and_mock_execution_and_audit.rs",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4011,
+								4016
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".:",
+									"selector": "source.rust"
+								},
+								{
+									"characters": ":.'(",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "rust-analyzer"
+								}
+							],
+							"lsp_active": true,
+							"lsp_uri": "file:///home/ethan/Documents/barter-rs/barter/examples/engine_sync_with_live_market_data_and_mock_execution_and_audit.rs",
+							"show_definitions": false,
+							"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2259.5,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "barter/src/system/config.rs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5066,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1429,
+								1459
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".:",
+									"selector": "source.rust"
+								},
+								{
+									"characters": ":.'(",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "rust-analyzer"
+								}
+							],
+							"lsp_active": true,
+							"lsp_uri": "file:///home/ethan/Documents/barter-rs/barter/src/system/config.rs",
+							"show_definitions": false,
+							"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 329.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/home/ethan/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/io/buffered/bufreader.rs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20932,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1849,
+								1849
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".:",
+									"selector": "source.rust"
+								},
+								{
+									"characters": ":.'(",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "rust-analyzer"
+								}
+							],
+							"lsp_active": true,
+							"lsp_uri": "file:///home/ethan/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/io/buffered/bufreader.rs",
+							"show_definitions": false,
+							"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 628.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "barter/src/risk/mod.rs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4318,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1151,
+								1151
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".:",
+									"selector": "source.rust"
+								},
+								{
+									"characters": ":.'(",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "rust-analyzer"
+								}
+							],
+							"lsp_active": true,
+							"lsp_uri": "file:///home/ethan/Documents/barter-rs/barter/src/risk/mod.rs",
+							"show_definitions": false,
+							"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/home/ethan/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/iter/traits/collect.rs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8906,
+								8906
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".:",
+									"selector": "source.rust"
+								},
+								{
+									"characters": ":.'(",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "rust-analyzer"
+								}
+							],
+							"lsp_active": true,
+							"lsp_uri": "file:///home/ethan/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/iter/traits/collect.rs",
+							"show_definitions": false,
+							"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5830.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "learn-map.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3642,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								670,
+								752
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								}
+							],
+							"auto_name": "这是一个推荐的学习路径，分为五个步骤：",
+							"lsp_uri": "file:///home/ethan/Documents/barter-rs/learn-map.md",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.LSP Log Panel":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.diagnostics":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.exec":
+	{
+		"height": 360.0,
+		"history":
+		[
+		]
+	},
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "barter-rs.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"lsp_show_inlay_hints": false
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 413.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

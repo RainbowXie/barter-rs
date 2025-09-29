@@ -1,0 +1,20 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"LSP": {    // 为 LSP 插件 (https://packagecontrol.io/packages/LSP) 准备的配置。
+			"rust-analyzer": {
+				"linkedProjects": [
+					"Cargo.toml"
+				],
+				"cargo": {
+					"features": []
+				}
+			}
+		}
+	}
+}
