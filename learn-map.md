@@ -126,8 +126,16 @@
 根据项目结构，获取回测数据主要有以下几种方式：
 
 1. **使用 `barter-data` 采集历史数据**：
-   - `barter-data` crate 提供 WebSocket 流式获取市场数据（trades, order books, candles）
-   - 需要自己存储采集的数据用于后续回测
+    - `barter-data` crate 提供 WebSocket 流式获取市场数据（trades, order books, candles）
+    - 需要自己存储采集的数据用于后续回测
+
+    - `barter-data` 的代码确实只面向实时行情流，并没有提供回溯历史区间的接口：
+    - 顶层文档直接把它定义成“高性能 WebSocket 实时行情库”，强调 StreamBuilder/Streams 仅用来初始化实时 MarketStream（barter-data/src/lib.rs:14）。
+    - 实际订阅流程只有 WebSocketSubscriber，连接后立即推送 websocket 消息；整个 Subscriber 体系不存在 REST/HTTP 拉取历史 K 线或逐笔的实现（barter-data/src/subscriber/mod.rs:39）。
+    - 所谓的 SnapshotFetcher 只用于获取订单簿的“初始快照”，确保实时增量能正确衔接，比如 BinanceSpotOrderBooksL2SnapshotFetcher 只是去 https://api.binance.com/api/v3/depth 拉一次当前深度快照，没有任何历史时间段参数（barter-data/src/exchange/binance/spot/l2.rs:39）。
+    - 代码里没有任何以“history/backfill/download”为特征的函数，也找不到按时间区间拉取数据的接口。
+
+    barter-data 只能开 WebSocket 订阅实时流。如果需要历史数据，需要另行抓取/下载并自行存储，然后在回测时转换成框架要求的 MarketEvent 序列。
 
 2. **准备历史数据文件**：
    - 回测时使用 Iterator 模式（同步处理）
